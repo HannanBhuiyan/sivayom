@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Dashboard</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">     
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+     <link rel="stylesheet" href="assets/css/style.css">
+     <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+     
+ <!-- dashboard section start here -->
+
+ <div class="main-section">
+     <div class="row">
+          <div class="col-lg-3">
+               <div class="sidebar"> 
+                    <div class="tab"> 
+                         <div class="tab_inner_class">
+                              <div class="sidebar_left">
+                                   <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">File</button>
+                                   <button class="tablinks" onclick="openCity(event, 'Paris')">Record</button>
+                                   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Database</button> 
+                              </div>
+                              <div class="sidebar_right">
+                                   <div class="mobile_sidebar_icon_times">
+                                        <i class="fa-solid fa-xmark"></i>
+                                   </div>
+                              </div>
+                         </div> 
+                    </div>
+                    <div id="London" class="tabcontent">
+                         <h3>London</h3>
+                         <p>London is the capital city of England.</p>
+                       </div>
+                       
+                       <div id="Paris" class="tabcontent">
+                         <h3>Paris</h3>
+                         <p>Paris is the capital of France.</p> 
+                       </div>
+                       
+                       <div id="Tokyo" class="tabcontent">
+                         <h3>Tokyo</h3>
+                         <p>Tokyo is the capital of Japan.</p>
+                       </div>
+                       
+               </div>
+               
+          </div>
+          <div class="col-lg-9">
+               <div class="main_body">
+                    <div class="mobile_sidebar_icon_bar">
+                         <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <h2>main body</h2>
+               </div>
+          </div>
+     </div> 
+ </div>
+
+ <!-- dashboard section end here -->
+
+
+
+
+<script src="assets/js/jquery-3.6.4.min.js"></script>
+<script src="assets/js/all.min.js"></script>
+<script src="assets/js/fontawesome.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+     function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+</script>
+</body>
+</html>
