@@ -107,7 +107,7 @@ button.tablinks {
 .feature_item_menu_title {
     border-bottom: 1px solid #fff;
     width: 250px;
-    margin: auto;
+    margin-left: 37px;
 }
 
 .card_item {
@@ -116,6 +116,54 @@ button.tablinks {
 }
 .custom_card_body {
     padding: 20px 30px;
+}
+
+.modal-header {
+    background: #0F1E3C;
+    color: #fff;
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 18px;
+}
+.modal_btn_group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 22px 30px 19px;
+}
+
+button.modal_close_btn.select_btn {
+    padding: 15px 46px;
+}
+button.modal_close_btn {
+    background: #0F1E3C !important;
+    padding: 12px 40px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+.modal_item_list ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.modal_item_list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.modal_item_list {
+    border:  1px solid #E0E0E0;
+    border-radius: 15px;
+    padding: 13px 0px;
+}
+li.active_modal_list {
+    background: #0F1E3C;
+    color: #fff;
+}
+.modal_btn_style span {
+    margin-left: 8px;
 }
 
 /* .main_body {

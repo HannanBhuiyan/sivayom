@@ -280,8 +280,8 @@
                                              <h4>Item Detail</h4>
                                         </div>
                                         <div class="custom_card_title_icon">
-                                             <a href="#">
-                                                  <img src="assets/images/icon/edit.png" alt="edit_icon">
+                                             <a data-bs-toggle="modal" href="#exampleModalToggle" >
+                                                  <img  src="assets/images/icon/edit.png" alt="edit_icon">
                                              </a>
                                         </div>
                                    </div>
@@ -354,7 +354,7 @@
                                              <h4>Item Location</h4>
                                         </div>
                                         <div class="custom_card_title_icon">
-                                             <a href="#">
+                                             <a  data-bs-toggle="modal" href="#exampleModalToggle">
                                                   <img src="assets/images/icon/edit.png" alt="edit_icon">
                                              </a>
                                         </div>
@@ -465,7 +465,7 @@
                                              <h4>Item Description</h4>
                                         </div>
                                         <div class="custom_card_title_icon">
-                                             <a href="#">
+                                             <a  data-bs-toggle="modal" href="#exampleModalToggle">
                                                   <img src="assets/images/icon/edit.png" alt="edit_icon">
                                              </a>
                                         </div>
@@ -552,8 +552,52 @@
           </div>
      </div> 
  </div>
-
  <!-- dashboard section end here -->
+
+ <!-- modal -->
+
+
+   <div class="modal fade" id="exampleModalToggle" tabindex="-1" aria-labelledby="exampleModalToggle" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="exampleModalToggle">Collectibles</h5>
+           <img src="assets/images/icon/edit.png" alt="edit-icon">
+         </div>
+         <div class="modal-body">
+           <div class="modal_item_list">
+               <ul>
+                    <li>Generic</li>
+                    <li>Antique and Scale Model Trains</li>
+                    <li class="active_modal_list">Antique Bottles and Glass</li>
+                    <li>Antique Cameras</li>
+                    <li>Antique Fishing Lures</li>
+                    <li>Antique Rods and Reels</li>
+                    <li>Antique Steam Engines</li>
+                    <li>Antique Toy and Die Cast Cars</li>
+                    <li>Antique and Scale Models</li>
+                    <li>Beanie and Plush Toys</li>
+                    <li>Beer Cans and Breweriana</li> 
+               </ul> 
+           </div>
+         </div> 
+          <div class="modal_btn_group">
+               <div class="modal_btn_style"> 
+                    <button type="button" class="modal_close_btn select_btn">
+                         <input type="checkbox"> <span>Select</span>
+                    </button>
+               </div>
+               <div class="modal_btn_style">
+                    <button type="button" class="modal_close_btn" data-bs-dismiss="modal">
+                         <img src="assets/images/icon/times.png" alt="times" > <span>Calcel</span>
+                    </button>
+               </div>
+          </div> 
+       </div>
+     </div>
+   </div>
+ 
+ <!-- modal -->
 
 
 
