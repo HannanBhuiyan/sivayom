@@ -3,6 +3,13 @@
      .mobile_sidebar_icon_times {
           display: none;
      }
+     .mobile_sidebar_icon_bar {
+          display: none;
+     }
+     .section_image {
+          display: none;
+     }
+     
 }
 
 @media screen and (max-width: 1199px) {
@@ -14,6 +21,32 @@
 }
 
 @media screen and (max-width: 991px) {
+     .section_slider {
+          display: none;
+     }
+     .section_image img {
+          width: 100%;
+          border-radius: 35px;
+          margin-bottom: 30px;
+      }
+      .section_image {
+          position: relative;
+      }
+      
+      .section_image .top_conent {
+          position: absolute;
+          top: 24px;
+          color: #fff;
+          left: 30px;
+      }
+      
+      .section_image .bottom_para_content {
+          position: absolute;
+          bottom: 60px;
+          left: 33px;
+          color: #fff;
+          font-size: 29px;
+      }
      .auth_wrapper::after {
           display: none;
      }
@@ -25,10 +58,15 @@
      .main-section {
           padding: 20px 30px;
      }
-     .sidebar {
-          /* transform: translateX(-1000px); */
-          display: none;
-          /* transition: all .3s ease-in-out; */
+     .sidebar { 
+          display: none; 
+     }
+     .card_item {
+          margin-bottom: 30px;
+     }
+     .mobile_sidebar_icon_bar {
+          font-size: 20px;
+          margin-bottom: 20px;
      }
      
 }
@@ -75,7 +113,38 @@
      }
      .form_bottom_list {
           margin-top: 25px;
-      }
+     }
+     .details_btn { 
+          justify-content: center;
+          margin-top: 20px;
+     }
+     .details_single_btn {
+          margin-bottom: 32px;
+     }
+     .custom_card_body {
+          padding: 12px 9px;
+     }
+     .main-section {
+          padding: 20px 12px;
+     }
+     .feature_item_menu_title {
+          border-bottom: 1px solid #fff;
+          width: 141px;
+          margin-left: 37px;
+     }
+     .sidebar.style-2 {
+          width: 100%;
+     }
+     .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+          display: none;
+     }
+     .top_conent .logo {
+          margin-right: 0px;
+     }
+     .section_image .bottom_para_content {
+          font-size: 19px;
+     }
+      
 }
 
 @media screen and (max-width: 425px) {
@@ -123,5 +192,11 @@
      .login_text { 
           margin: 40px 0px 10px 0px;
      }
+     .section_image .bottom_para_content {
+          left: 26px;
+     }
+     .section_image .top_conent {
+          left: 5px;
+      }
     
 }

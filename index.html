@@ -25,9 +25,9 @@
                     <div class="tab"> 
                          <div class="tab_inner_class">
                               <div class="sidebar_left">
-                                   <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">File</button>
-                                   <button class="tablinks" onclick="openCity(event, 'Paris')">Record</button>
-                                   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Database</button> 
+                                   <button class="tablinks" onclick="openCity(event, 'file')" id="defaultOpen">File</button>
+                                   <button class="tablinks" onclick="openCity(event, 'record')">Record</button>
+                                   <button class="tablinks" onclick="openCity(event, 'database')">Database</button> 
                               </div>
                               <div class="sidebar_right">
                                    <div class="mobile_sidebar_icon_times">
@@ -36,28 +36,242 @@
                               </div>
                          </div> 
                     </div>
-                    <div id="London" class="tabcontent">
-                         <h3>London</h3>
-                         <p>London is the capital city of England.</p>
-                       </div>
-                       
-                       <div id="Paris" class="tabcontent">
-                         <h3>Paris</h3>
-                         <p>Paris is the capital of France.</p> 
-                       </div>
-                       
-                       <div id="Tokyo" class="tabcontent">
-                         <h3>Tokyo</h3>
-                         <p>Tokyo is the capital of Japan.</p>
-                       </div>
-                       
+                    <div id="file" class="tabcontent">
+                         <div class="left_menu">
+                              <ul>
+                                   <li>
+                                        <a href="#">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/folder.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Folders</span>
+                                                  </div>
+                                             </div> 
+                                              
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="#" class="active">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/open.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Open</span>
+                                                  </div>
+                                             </div>  
+                                        </a>
+                                   </li>
+                                   <li> 
+                                        <a href="#">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/add-item.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Add Item</span>
+                                                  </div>
+                                             </div> 
+                                        </a>
+                                   </li>
+                                   <li> 
+                                        <a href="#">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/edit-item.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Edit Item</span>
+                                                  </div>
+                                             </div> 
+                                        </a>
+                                   </li>
+                                   <li> 
+                                        <a href="#">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/save-item.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Save Item</span>
+                                                  </div>
+                                             </div> 
+                                        </a>
+                                   </li>
+                                   <li> 
+                                        <a href="#">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/calcel.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Cancel Item</span>
+                                                  </div>
+                                             </div> 
+                                        </a>
+                                   </li>
+                                   <li> 
+                                        <a href="#">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/add-image.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Add Image</span>
+                                                  </div>
+                                             </div> 
+                                        </a>
+                                   </li>
+                                   <li> 
+                                        <a href="#">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/exit-item.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Exit</span>
+                                                  </div>
+                                             </div> 
+                                        </a>
+                                   </li>
+                                   <div class="feature_item_menu_title" style="margin-top: 100px">
+                                        <h2>Features</h2>
+                                   </div>
+                                   <li style="margin-top: 20px"> 
+                                        <a href="#">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/items.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Items</span>
+                                                  </div>
+                                             </div> 
+                                        </a>
+                                   </li>
+                                   <li> 
+                                        <a href="#">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/view-all.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>View All</span>
+                                                  </div>
+                                             </div> 
+                                        </a>
+                                   </li>
+                                   <li> 
+                                        <a href="#">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/total.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Total</span>
+                                                  </div>
+                                             </div> 
+                                        </a>
+                                   </li>
+                                   <li> 
+                                        <a href="#">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/image.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Images</span>
+                                                  </div>
+                                             </div> 
+                                        </a>
+                                   </li>
+                              </ul>
+                         </div>
+                    </div>
+                    
+                    <div id="record" class="tabcontent">
+                         <div class="left_menu">
+                              <ul>
+                                   <li>
+                                        <a href="#">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/folder.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Record Demo</span>
+                                                  </div>
+                                             </div> 
+                                              
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="#" class="active">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/open.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Record Demo</span>
+                                                  </div>
+                                             </div>  
+                                        </a>
+                                   </li> 
+                              </ul>
+                         </div>
+                    </div>
+                    
+                    <div id="database" class="tabcontent">
+                         <div class="left_menu">
+                              <ul>
+                                   <li>
+                                        <a href="#">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/folder.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Database Demo</span>
+                                                  </div>
+                                             </div> 
+                                              
+                                        </a>
+                                   </li>
+                                   <li>
+                                        <a href="#" class="active">
+                                             <div class="left_menu_item">
+                                                  <div class="left_icon_img">
+                                                       <img src="assets/images/icon/open.png" alt="icon">
+                                                  </div>
+                                                  <div class="left_menu_text">
+                                                       <span>Databse Demo</span>
+                                                  </div>
+                                             </div>  
+                                        </a>
+                                   </li> 
+                              </ul>
+                         </div> 
+                    </div>
+                    <div class="admin_side_logo">
+                         <div class="top_conent d-flex">
+                              <div class="logo">
+                                   <img src="assets/images/logo.png" alt="logo">
+                              </div>
+                              <div class="text">
+                                   <h2>Detectingresearch</h2>
+                                   <p>Expert Analysis</p>
+                              </div>
+                         </div>
+                    </div> 
                </div> 
           </div>
           <div class="col-lg-9">
                <div class="main_body">
-                    <!-- <div class="mobile_sidebar_icon_bar">
+                    <div class="mobile_sidebar_icon_bar">
                          <i class="fa-solid fa-bars"></i>
-                    </div> -->
+                    </div>
                     <div class="row">
                          <div class="col-lg-5">
                               <div class="card_item">
@@ -74,45 +288,59 @@
                                    <div class="custom_card_body">
                                         <form action="">
                                              <div class="form-group">
-                                                  <label for="">Item</label>
+                                                  <label for="" class="mb-2">Item</label>
                                                   <input type="text" placeholder="Please select the Item" class="form-control">
                                              </div> 
                                              <div class="form-group">
-                                                  <label for="">Year</label>
-                                                  <select name="" id="" class="form-control">
-                                                       <option value selected>Select Year</option>
-                                                       <option value="">2014</option>
-                                                       <option value="">2013</option>
-                                                       <option value="">2012</option>
-                                                       <option value="">2015</option>
-                                                       <option value="">2016</option>
-                                                       <option value="">2017</option>
+                                                  <label for="" class="mt-3 mb-2">Year</label>
+                                                  <select name="" id="selectColor" class="form-control">
+                                                       <option selected value="Select Year">Select Year</option> 
+                                                       <option value="2014">2014</option>
+                                                       <option value="2013">2013</option>
+                                                       <option value="2012">2012</option>
+                                                       <option value="2015">2015</option>
+                                                       <option value="2016">2016</option>
+                                                       <option value="2017">2017</option>
                                                   </select>
                                              </div>
                                              <div class="row">
                                                   <div class="col-md-6">
                                                        <div class="form-group">
-                                                            <label for="">Date</label>
+                                                            <label for="" class="mt-3 mb-2">Date</label>
                                                             <input type="date" placeholder="Select Date" class="form-control">
                                                        </div> 
                                                   </div>
                                                   <div class="col-md-6">
                                                        <div class="form-group">
-                                                            <label for="">Quantity</label>
+                                                            <label class="mt-3 mb-2">Quantity</label>
                                                             <input type="text" placeholder="Quantity of the Item" class="form-control">
                                                        </div> 
                                                   </div>
                                                   <div class="col-md-6">
                                                        <div class="form-group">
-                                                            <label for="">Face Value (ea)</label>
-                                                            <input type="text" placeholder="Write the Value" class="form-control">
+                                                            <label class="mt-3 mb-2">Face Value (ea)</label>
+                                                            <input type="text" placeholder="Write the Value" class="form-control mb-4">
                                                        </div> 
                                                   </div>
                                                   <div class="col-md-6">
                                                        <div class="form-group">
-                                                            <label for="">Est. Value (ea)</label>
-                                                            <input type="text" placeholder="Write the Value" class="form-control">
+                                                            <label class="mt-3 mb-2" >Est. Value (ea)</label>
+                                                            <input type="text" placeholder="Write the Value" class="form-control mb-4">
                                                        </div> 
+                                                  </div>
+                                             </div>
+                                             <div class="details_btn">
+                                                  <div class="details_single_btn">
+                                                       <a href="#">
+                                                            <img src="assets/images/icon/cart-shop.png" alt="shop">
+                                                            <span>Buy/Sell</span>
+                                                       </a>
+                                                  </div>
+                                                  <div class="details_single_btn">
+                                                       <a href="#">
+                                                            <img src="assets/images/icon/global-search.png" alt="global">
+                                                            <span>Online Search</span>
+                                                       </a>
                                                   </div>
                                              </div>
                                         </form>
@@ -136,13 +364,13 @@
                                              <div class="row">
                                                   <div class="col-md-9">
                                                        <div class="form-group">
-                                                            <label for="">Hunting Location</label>
+                                                            <label class="mb-2">Hunting Location</label>
                                                             <input type="text" placeholder="Location Name" class="form-control">
                                                        </div> 
                                                   </div>
                                                   <div class="col-md-3">
                                                        <div class="form-group">
-                                                            <label for="">Hunting Partner</label>
+                                                            <label class="mb-2">Hunting Partner</label>
                                                             <input type="text" placeholder="Your Partner Name" class="form-control">
                                                        </div> 
                                                   </div>
@@ -150,33 +378,46 @@
                                              <div class="row">
                                                   <div class="col-md-4">
                                                        <div class="form-group">
-                                                            <label for="">Name</label>
+                                                            <label class="mt-3 mb-2">Name</label>
                                                             <input type="text" placeholder="Your Name Here" class="form-control">
                                                        </div> 
                                                   </div>
                                                   <div class="col-md-4">
                                                        <div class="form-group">
-                                                            <label for="">Email</label>
+                                                            <label class="mt-3 mb-2">Email</label>
                                                             <input type="text" placeholder="abc@email.com" class="form-control">
                                                        </div> 
                                                   </div>
                                                   <div class="col-md-4">
                                                        <div class="form-group">
-                                                            <label for="">Equipment use</label>
+                                                            <label class="mt-3 mb-2">Equipment use</label>
                                                             <input type="text" placeholder="Equipment Name" class="form-control">
                                                        </div> 
                                                   </div>
                                              </div>
                                              <div class="form-group">
-                                                  <label for="">Address</label>
+                                                  <label class="mt-3 mb-2">Address</label>
                                                   <input type="text" placeholder="Write the address where you find the item" class="form-control">
                                              </div> 
                                              <div class="row">
                                                   <div class="col-md-4">
                                                        <div class="form-group">
-                                                            <label for="">City</label>
-                                                            <select name="" id="" class="form-control">
+                                                            <label class="mt-3 mb-2">City</label>
+                                                            <select name="" id="selectColor" class="form-control">
                                                                  <option value selected>Select Your City</option>
+                                                                 <option value="">Dhaka</option>
+                                                                 <option value="">Comilla</option>
+                                                                 <option value="">Sylhet</option>
+                                                                 <option value="">Delhi</option>
+                                                                 <option value="">kalkhata</option> 
+                                                            </select>
+                                                       </div>
+                                                  </div>
+                                                  <div class="col-md-4">
+                                                       <div class="form-group">
+                                                            <label class="mt-3 mb-2">State</label>
+                                                            <select name="" id="selectColor" class="form-control">
+                                                                 <option value selected>Select Your State</option>
                                                                  <option value="">Dhaka</option>
                                                                  <option value="">Comilla</option>
                                                                  <option value="">Sylhet</option>
@@ -187,9 +428,9 @@
                                                   </div>
                                                   <div class="col-md-4">
                                                        <div class="form-group">
-                                                            <label for="">City</label>
-                                                            <select name="" id="" class="form-control">
-                                                                 <option value selected>Select Your City</option>
+                                                            <label class="mt-3 mb-2">Zip Code</label>
+                                                            <select name="" id="selectColor" class="form-control">
+                                                                 <option value selected>Write Zip Code here</option>
                                                                  <option value="">Dhaka</option>
                                                                  <option value="">Comilla</option>
                                                                  <option value="">Sylhet</option>
@@ -198,8 +439,107 @@
                                                             </select>
                                                        </div>
                                                   </div>
-                                                  <div class="col-md-4">
-
+                                             </div>
+                                             <div class="row">
+                                                  <div class="col-md-6">
+                                                       <div class="form-group">
+                                                            <label class="mt-3 mb-2">Soil Conditions</label>
+                                                            <input type="text" placeholder="what was the soil condition" class="form-control">
+                                                       </div>
+                                                  </div>
+                                                  <div class="col-md-6">
+                                                       <div class="form-group">
+                                                            <label class="mt-3 mb-2">Weather Conditions</label>
+                                                            <input type="text" placeholder="What was the weather condition" class="form-control">
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </form>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-md-12 mt-5">
+                              <div class="card_item">
+                                   <div class="custom_card_title">
+                                        <div class="custom_card_title_txt">
+                                             <h4>Item Description</h4>
+                                        </div>
+                                        <div class="custom_card_title_icon">
+                                             <a href="#">
+                                                  <img src="assets/images/icon/edit.png" alt="edit_icon">
+                                             </a>
+                                        </div>
+                                   </div>
+                                   <div class="custom_card_body">
+                                        <form action="">
+                                             <div class="row">
+                                                  <div class="col-lg-6 col-12">
+                                                       <div class="form-group">
+                                                            <label class="mb-2">Description</label>
+                                                            <input type="text" placeholder="Add description of the Item" class="form-control">
+                                                       </div>
+                                                       <div class="row">
+                                                            <div class="col-md-6">
+                                                                 <div class="form-group">
+                                                                      <label class="mt-3 mb-2">Design/Style</label>
+                                                                      <input type="text" placeholder="Design of Product" class="form-control">
+                                                                 </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                 <div class="form-group">
+                                                                      <label class="mt-3 mb-2">Engraving/Inscription</label>
+                                                                      <input type="text" placeholder="Detail of product" class="form-control">
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="form-group">
+                                                            <label class="mt-3 mb-2">Unique Features</label>
+                                                            <input type="text" placeholder="Features of the Product" class="form-control">
+                                                       </div>
+                                                       <div class="form-group">
+                                                            <label class="mt-3 mb-2">Comments</label>
+                                                            <textarea class="form-control" name="" id="" cols="30" rows="5" placeholder="Write your thoughts here"></textarea>
+                                                       </div>
+                                                  </div>
+                                                  <div class="col-lg-6 col-12">
+                                                       <div class="row">
+                                                            <div class="col-lg-6 col-12">
+                                                                 <div class="form-group">
+                                                                      <label class="mt-3 mb-2">Grade</label>
+                                                                      <input type="text" placeholder="Grade of the Item" class="form-control">
+                                                                 </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-12">
+                                                                 <div class="form-group">
+                                                                      <label class="mt-3 mb-2">Mint Mark</label>
+                                                                      <input type="text" placeholder="Mark" class="form-control">
+                                                                 </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-12">
+                                                                 <div class="form-group">
+                                                                      <label class="mt-3 mb-2">Metal</label>
+                                                                      <input type="text" placeholder="Metal Name" class="form-control">
+                                                                 </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-12">
+                                                                 <div class="form-group">
+                                                                      <label class="mt-3 mb-2">Weight</label>
+                                                                      <input type="text" placeholder="Weight of the Item" class="form-control">
+                                                                 </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-12">
+                                                                 <div class="form-group">
+                                                                      <label class="mt-3 mb-2">Gem Stone(s)</label>
+                                                                      <input type="text" placeholder="Any Stone Category" class="form-control">
+                                                                 </div>
+                                                            </div> 
+                                                            <div class="col-lg-6 col-12">
+                                                                 <div class="form-group">
+                                                                      <label class="mt-3 mb-2">Rarity</label>
+                                                                      <input type="text" placeholder="Rare or not" class="form-control">
+                                                                 </div>
+                                                            </div>
+                                                       </div>
                                                   </div>
                                              </div>
                                         </form>
@@ -225,6 +565,12 @@
 <script src="assets/js/swiper-bundle.min.js"></script>
 <script src="assets/js/app.js"></script>
 <script>
+
+
+     $("#selectColor").change(function(){
+          $(this).css("color", "#727272");
+     });
+
      function openCity(evt, cityName) {
           var i, tabcontent, tablinks;
           tabcontent = document.getElementsByClassName("tabcontent");

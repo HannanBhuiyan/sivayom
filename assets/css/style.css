@@ -6,8 +6,54 @@ body {
 }
 
 /* dashboard section css start here */
-.active {
-    background: red;
+button.tablinks.active {
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+}
+button.tablinks {
+    background: transparent;
+    color: #fff;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 8px 9px;
+}
+.left_menu_item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.left_menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16.64px;
+    padding: 10px 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+.left_icon_img img {
+    width: 15px;
+    margin-right: 12px;
+}
+.left_menu ul {
+    margin: 0;
+    padding: 0;
+}
+.left_menu ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.left_menu {
+    padding-top: 40px;
+}
+.left_menu ul li a:hover {
+    background-color: #06122a;
 }
 .main-section {
     padding: 70px 30px;
@@ -15,7 +61,53 @@ body {
 }
 .sidebar {
     background-color: #0F1E3C;
-    height: 100vh;
+    height: 1100px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.left_menu ul li .active {
+    font-weight: 700;
+}
+.admin_side_logo {
+    color: #fff;
+    position: absolute;
+    bottom: 18px;
+    left: 14px;
+}
+
+.admin_side_logo .text h2 {
+    font-size: 20px;
+}
+
+.admin_side_logo .text {
+    line-height: 13px;
+}
+
+.admin_side_logo .text p {
+    margin: 0;
+    padding: 0;
+}
+.top_conent {
+    align-items: center;
+}
+
+.top_conent .logo {
+    margin-right: 13px;
+}
+.feature_item_menu_title h2 {
+    color: #fff;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 1px;
+}
+
+.feature_item_menu_title {
+    border-bottom: 1px solid #fff;
+    width: 250px;
+    margin: auto;
 }
 
 .card_item {
@@ -31,13 +123,12 @@ body {
 } */
 
 .sidebar.style-2 {
-    /* transform: translateX(0); */
     display: block;
     width: 400px;
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 1500px;
     transition: all .3s ease-in-out;
 }
 .tab_inner_class {
@@ -59,9 +150,7 @@ button.tablinks {
 }
 
 
-.card_item {
-
-}
+ 
 .custom_card_title {
     background: #0F1E3C;
     padding: 20px;
@@ -76,6 +165,46 @@ button.tablinks {
     border-top-right-radius: 10px;
 }
 
+.details_btn {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.details_single_btn a {
+    background: #0F1E3C;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 30px;
+    color: #fff;
+    padding: 16px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+.card_item label {
+    color: #727272;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 14.22px;
+}
+
+select#selectColor {
+    color: #727272;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 14.22px;
+}
+
+.card_item::placeholder {
+    color: #727272;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 14.22px;
+}
 /* dashboard section css end here */
 
 
