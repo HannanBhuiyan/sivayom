@@ -20,6 +20,23 @@
      
 }
 
+@media screen and (max-width: 1750px) {
+     .swiper-button-prev.swiper-button-disabled, .swiper-button-prev {
+          padding-left: 83%;
+      }
+}
+@media screen and (max-width: 1500px) {
+     .swiper-button-prev.swiper-button-disabled, .swiper-button-prev {
+          padding-left: 80%;
+      }
+}
+@media screen and (max-width: 1250px) {
+     .swiper-button-prev.swiper-button-disabled, .swiper-button-prev {
+          padding-left: 75%;
+      }
+}
+
+
 @media screen and (max-width: 1199px) {
      .swipper_image img {
           width: 468px;
@@ -76,7 +93,25 @@
           font-size: 20px;
           margin-bottom: 20px;
      }
-     
+     .custom_card_body.slider_last_item {
+          padding: 20px 30px 100px;
+     }
+     .swiper-wrapper.slider_last_item {
+          padding-bottom: 130px;
+     }
+     .swiper-button-next { 
+          margin-top: 44%;
+     }
+     .swiper-button-prev { 
+          margin-top: 44%;
+     }
+     .scroll_item { 
+          bottom: 79px; 
+     }
+     .swiper-button-prev.swiper-button-disabled, .swiper-button-prev {
+          padding-left: 70%;
+      }
+      
 }
 
 @media screen and (max-width: 767px) {
@@ -84,6 +119,13 @@
           width: 510px;
           border-radius: 40px;
           margin-bottom: 20px;
+     }
+    
+     .swiper-button-next { 
+          margin-top: 51%;
+     }
+     .swiper-button-prev { 
+          margin-top: 51%;
      }
 }
 
@@ -152,6 +194,15 @@
      .section_image .bottom_para_content {
           font-size: 19px;
      }
+     .swiper-button-next {
+          margin-top: 87%;
+      }
+     .swiper-button-prev {
+          margin-top: 87%;
+     }
+     .swiper-button-prev.swiper-button-disabled, .swiper-button-prev {
+          padding-left: 49%;
+     }
       
 }
 
@@ -214,6 +265,31 @@
      .modal_btn_style {
           margin-bottom: 15px;
      }
-      
-    
+     .swiper-button-prev {
+          margin-top: 88%;
+     }
+     .swiper-button-next {
+          margin-top: 88%;
+     }
+     .swiper-button-prev.swiper-button-disabled, .swiper-button-prev {
+          padding-left: 43%;
+     }
+}
+
+@media screen and (max-width: 375px) {
+     .swiper-button-prev , .swiper-button-next{
+          margin-top: 97%;
+     } 
+}
+
+@media screen and (max-width: 320px) {
+     .swiper-button-next {
+          margin-top: 121%;
+     }
+     .swiper-button-prev {
+          margin-top: 121%;
+     }
+     .swiper-button-prev.swiper-button-disabled, .swiper-button-prev {
+          padding-left: 33%;
+     }
 }

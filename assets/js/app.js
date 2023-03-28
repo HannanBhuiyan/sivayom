@@ -8,11 +8,18 @@ $(".mobile_sidebar_icon_times").click(function() {
 })
 
 // login and registrtion slider
-var swiper = new Swiper(".mySwiper", {
+new Swiper(".mySwiper", {
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
+    }, 
+}); 
+ 
+
+new Swiper(".dashboard_swipper", {
+    slidesPerView: 1,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
-    
-     
 });
