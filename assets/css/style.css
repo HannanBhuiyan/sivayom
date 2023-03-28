@@ -184,7 +184,7 @@ li.active_modal_list {
 }
 .swiper-button-prev.swiper-button-disabled, .swiper-button-prev {
     width: 100%;
-    padding-top: 199px;
+    padding-top: 39%;
     padding-left: 86%;
 }
 .swiper-button-next {
@@ -200,7 +200,7 @@ li.active_modal_list {
 .scroll_item {
     position: absolute;
     right: 17px;
-    bottom: 62px;
+    bottom: 67px;
     z-index: 99999;
 }
 .swiper-button-prev:after {
@@ -448,6 +448,9 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
      height: 200px;
      border-radius: 20px;
      background-color: #0F54F0;
+}
+.swiper-button-next, .swiper-button-next {
+    margin-top: 23%;
 }
 .auth_title h2 {
      font-style: normal;

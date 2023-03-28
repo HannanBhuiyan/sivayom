@@ -42,6 +42,31 @@
           width: 468px;
           border-radius: 40px;
      } 
+     .details_btn {
+          justify-content: center;
+     }
+     .details_single_btn {
+          margin-bottom: 34px;
+     }
+     button.tablinks {
+          margin-right: 5px;
+     }
+     .tab_inner_class { 
+          padding: 20px 5px 0px;
+     }
+     .admin_side_logo .text h2 {
+          font-size: 13px;
+     }
+     .admin_side_logo .text p {
+          margin: 0;
+          padding: 0;
+          font-size: 12px;
+     }
+     .scroll_item { 
+          top: 61%;
+     }
+      
+      
       
 }
 
